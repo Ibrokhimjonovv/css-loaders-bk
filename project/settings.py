@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-1=igog&lb!46*^$-r#s)ezm09$yq(jwqnq76qz%^d-$&j9==kx
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["loaders.afd-platform.uz", "css-loaders-gl.vercel.app", "impulsee.pythonanywhere.com/"]
+ALLOWED_HOSTS = ["loaders.afd-platform.uz", "css-loaders-gl.vercel.app", "impulsee.pythonanywhere.com"]
 
 
 # Application definition
@@ -57,8 +57,8 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "https://loaders.afd-platform.uz/",
-    "https://css-loaders-gl.vercel.app/",
+    "https://loaders.afd-platform.uz",
+    "https://css-loaders-gl.vercel.app",
 ]
 
 
